@@ -3,7 +3,7 @@ class productManager {
         this.productsList = []
     }
 
-    getProduts = () =>{
+    getProducts = () =>{
         return console.log(this.productsList)
     }
 
@@ -51,7 +51,9 @@ class productManager {
 
 
 const productHandler = new productManager();
+productHandler.getProducts();
 productHandler.addProduct('Manzana', 'Manzana Roja de Río Negro', 60, 'https://images.app.goo.gl/VVHm5zYYH6NZjQSP7', 001, 20);
-productHandler.addProduct('Naranja', 'Naranja de Ombligo de San Pedro', 50, 'https://images.app.goo.gl/zHEPLKbpY3M76i8z9', 002, 30)
-productHandler.getProduts();
+productHandler.getProducts();
+productHandler.addProduct('Manzana', 'Manzana Roja de Río Negro', 60, 'https://images.app.goo.gl/VVHm5zYYH6NZjQSP7', 001, 20);
 productHandler.getProductById(1);
+productHandler.getProductById(2);
