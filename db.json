@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Manzana",
+		"description": "Manzana Roja de Río Negro",
+		"price": 60,
+		"thumbnail": "https://images.app.goo.gl/VVHm5zYYH6NZjQSP7",
+		"code": "1",
+		"stock": 20,
+		"id": 1
+	},
+	{
+		"title": "Pera",
+		"description": "Pera de Río Negro",
+		"price": 90,
+		"thumbnail": "https://images.app.goo.gl/VVHm5zYYH6NZjQSP7",
+		"code": "2",
+		"stock": 20,
+		"id": 2
+	},
+    {
+		"title": "Naranja",
+		"description": "Naranja de San Pedro",
+		"price": 50,
+		"thumbnail": "https://images.app.goo.gl/VVHm5zYYH6NZjQSP7",
+		"code": "3",
+		"stock": 20,
+		"id": 3
+	}
+]
